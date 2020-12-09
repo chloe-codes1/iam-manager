@@ -1,6 +1,6 @@
 # IAM Manager
 
-> Manage your AWS IAM users easily and efficiently 
+> 🧑‍🔬 Manage your AWS IAM users easily and efficiently 
 
 <br>
 <br>
@@ -12,7 +12,7 @@
 
 #### MFA
 - [x] : Get IAM Users with no MFA enabled
-- [x] : Save no MFA enabled user list into file
+- [x] : Save no MFA user list into file
 
 
 <br>
