@@ -31,4 +31,5 @@ tmp
 # backup files
 *.bak
 
-no_mfa_users.txt
+# test results
+no_mfa_users*
