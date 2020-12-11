@@ -12,7 +12,7 @@
 
 #### MFA
 - [x] : Get IAM Users with no MFA enabled
-- [x] : Save no MFA user list into file
+- [x] : Save no MFA user list to either `.txt` or `.csv` file
 
 
 <br>
@@ -39,3 +39,24 @@ python3 -m pip install --upgrade pip # upgrade your pip
 pip3 install -r requirements.txt
 ```
 
+<br>
+
+#### 4. Modify configs
+
+In `src/configs/configs.py`, you'll see some variables in there.
+Make changes to them as desired.
+
+##### Variables
+- NO_MFA_USER_FILE
+  - Name of the file to save no MFA user list
+- FILE_PATH
+  - Literally file path
+
+<br>
+
+#### 5. Now, run!
+
+```bash
+cd src
+python3 main.py 
+```
